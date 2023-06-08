@@ -1,23 +1,20 @@
-while True:
-    sexo = str(input("Digite o sexo [M/F]: "))
-    if sexo in 'MF':
-        break
-    else: 
-        print("Digite M ou F..")
+print("Bem vindo ao seu calculador de IMC!!")
+altura = float(input("Digite a altura (m): "))
+peso = float(input("Digite o peso (Kg): "))
 
-idade = int(input("Digite a idade: "))
-altura = float(input("Digite a altura: "))
-peso = float(input("Digite o peso: "))
-ativ = str(input("Tipo de atividade: "))
+imc = peso/(altura**2)
 
-imc = peso/(altura*altura)
+print(f"\nValor IMC: {round(imc,2)}")
+
+print("\nDe acordo com o IMC a pessoa está ", end="")
 if imc < 18.5:
-    print("\nAbaixo do peso ideal...")
+    print("abaixo do peso ideal.")
 elif imc < 24.5:
-    print("\nPeso ideal...")
+    print("no peso ideal.")
 elif imc < 30:
-    print("\nSobrepeso...")
+    print("acima do peso ideal.")
+elif imc < 40:
+    print("em risco de obesidade.")
 else:
-    print("\nObesidade...")
+    print("em risco de obesidade morbida.")
 
-print(f"Valor IMC: {round(imc,2)}")
