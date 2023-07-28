@@ -1,7 +1,7 @@
 print("Bem vindo ao seu calculador de IMC!!")
+
 altura = float(input("Digite a altura (m): "))
 peso = float(input("Digite o peso (Kg): "))
-
 imc = peso/(altura**2)
 
 print(f"\nValor IMC: {round(imc,2)}")
