@@ -1,6 +1,11 @@
 # # Como que printa uma mensagem na tela
 # print("Hello world")
 
+name = input('Nome: ')
+msg = f'Hello, {name}!!!'
+print(msg)
+
+
 # # Receber dados do usuário e salvar em uma variável
 # name = input("\nNome: ")
 
@@ -35,6 +40,39 @@
 
 # print(f"A soma dos números é: {soma}\n")
 
+
+num1 = (input('Digite o primeiro número: '))
+num2 = input('Digite o segundo número: ')
+
+soma = num1+num2
+
+print(f'A soma de {num1} e {num2} é {soma}')
+
+
+####################
+
+operator = input('Escolha um operador (+ - * /): ')
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))
+
+if operator == '+':
+    result = num1+num2
+
+elif operator == '-':
+    result = num1-num2
+
+elif operator == '*':
+    result = num1*num2
+
+elif operator == '/':
+    result = num1/num2
+
+else:
+    print(f'{operator} não é um operador')
+
+
+
+print(f'O resultado entre {num1} e {num2} é {result}')
 
 # Condicional para escolher operação
 #Sem while True

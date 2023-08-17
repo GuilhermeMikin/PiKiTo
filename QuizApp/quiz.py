@@ -1,5 +1,4 @@
 # Quiz game
-
 questions = ("1) Qual é a função da declaração 'print' em Python?",
              "2) Qual das seguintes opções é um tipo de dado numérico em Python?",
              "3) O que é um 'loop' em Python?",
