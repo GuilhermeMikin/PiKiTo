@@ -1,0 +1,18 @@
+"""
+Salve salve pikitos! Sejam muito bem vindos ao canal Pikito Python.
+Eu sou o Mikin e nessa aula eu vou te mostrar como vc vai criar e 
+executar o seu primeiro código em python
+
+Bom, eu estou gravando essa
+"""
+
+"""se você quiser se aprofundar mais no aprendizado de python
+e se tornar um dos profissionais mais bem remunerados do momento,
+eu recomendo que você, além de nos seguir para continuar acompanhando nossos
+vídeos sobre python
+clique no primeiro link da descrição e assista
+ao vídeo do guilherme grillo, da danki code , onde ele vai te mostrar
+o passo a passo que você precisa seguir para se tornar um
+programador python de sucesso e muito bem remunerado.
+
+ent é isso, até o próximo vídeo e valeu"""
